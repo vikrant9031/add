@@ -1,0 +1,109 @@
+*{
+ padding: 0px 0px 0px 0px;
+}
+body,html{
+	height: 100%;
+	margin: 0;	 
+}
+.bg{
+	background-image:url("pexel.jpeg");
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+     background-size: cover;
+
+}
+#candy{
+	  background-color: red;
+      background-image: linear-gradient(45deg, white 25%, transparent 25.5%, transparent 50%, white 50.5%, white 75%, transparent 75.5%, transparent);
+      background-size: 20px 20px;
+}
+.bell{
+   width: 80px;
+   height: 80px;
+}
+.bottom{
+	width: 100%;
+	margin-left:200px;
+	margin-top: -500px; 
+	height: 1400px;
+	background-color: red;
+}
+.bell2{
+   width: 80px;
+   height: 80px;
+}
+.santa{
+	position: absolute;
+width: 300px;
+height: 450px;
+left: 150px;
+top: 300px;
+animation: mymove;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+
+}
+
+.santa1{
+	position: absolute;
+width: 300px;
+height: 450px;
+left: 1350px;
+top: 300px;
+animation: mymove;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+
+}
+
+.merry{
+	width: 500px;
+	height: 500px;
+	transform: translate(130%,30%);
+}
+
+embed{
+	position: absolute;
+	left: 680px;
+	top: 500px;
+	z-index: -1;
+}
+@keyframes mymove{
+	0%{
+		width: 300px;
+		height: 450px;
+	}
+	40%{
+		width: 200px;
+		height: 250px;
+		}
+	60%{
+		width: 100px;
+		height: 150px;
+	}
+	80%{
+		width: 200px;
+		height: 250px;
+	}
+	100%{
+		width: 300px;
+		height: 450px;
+		}
+}
+@media only screen and (max-width: 700px) {
+  .merry{
+width: 200px;
+height: 200px;
+transform: translate(60%,30%);
+  }
+  .santa{
+  	top:380px;
+  	left: 100px;
+  }
+  
+body{
+
+}
+  
+}
